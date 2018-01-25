@@ -16,7 +16,7 @@ return array (
       'host' => 'localhost',
       'database' => 'techarta_viralwits',
       'username' => 'techarta_viralus',
-      'password' => 'h!dens33k',
+      'password' => 'nickkvm',
       'charset' => 'utf8',
       'collation' => 'utf8_unicode_ci',
       'prefix' => '',

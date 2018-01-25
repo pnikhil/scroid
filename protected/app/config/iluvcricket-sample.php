@@ -1,4 +1,4 @@
-<?php return array (
-  'username' => 'iluvcricket',
-  'password' => 'iluvcricket',
-);
+<?php return array (
+  'username' => 'iluvcricket',
+  'password' => 'iluvcricket',
+);

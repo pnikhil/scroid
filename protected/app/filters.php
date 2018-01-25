@@ -36,6 +36,10 @@ Route::matched(function($route, $request) {
 
 App::before(function($request)
 {
+	if( ! Request::secure() )
+    {
+        return Redirect::secure( Request::path() );
+    }
 
 	//dd($request->getPathInfo() == route(Config::get('app-installer::routeName'), [], false));
 	App::singleton('siteConfig', function(){
